@@ -1,0 +1,141 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.header {
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+img {
+    width: 495px;
+    height: 400px;
+    margin-left: 121px;
+    margin-top: 200px;
+    display: inline-block;
+}
+
+section {
+    margin-left: 84px;
+    display: inline-block;
+}
+
+h1 {
+    width: 493px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-bottom: 47px;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+.more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 625px) {
+
+    
+
+    .header {
+        display: block;
+        display: none;
+    }
+
+    header {
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        position: relative;
+        left: 440px;
+        top: 20px;
+    }
+
+    img {
+        position: relative;
+        right: 60px;
+        top: 620px;
+
+    }
+
+    h1 {
+        width: 398px;
+        height: 60px;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        position: relative;
+        bottom: 140px;
+        left: 20px;
+       
+    }
+
+    p {
+        width: 404px;
+        height: 165px;
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 0;
+        position: relative;
+        bottom: 100px;
+        left: 16px;
+    }
+    
+
+    section {
+        display: block;
+        position: relative;
+        bottom: 350px;
+    }
+    
+    .more {
+        position: relative;
+        left: 140px;
+        font-size: 30px;
+    }
+}
